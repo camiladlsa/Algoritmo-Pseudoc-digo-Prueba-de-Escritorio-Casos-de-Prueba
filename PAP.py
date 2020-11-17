@@ -1,15 +1,15 @@
 Cont = 1
 
 while True:
-	Number = input("\nIngrese el numero entero cuya persistencia aditiva desea saber: ")
+	Number = input("\nIngrese el número entero cuya persistencia aditiva desea saber: ")
 	try: 
 		Number = int(Number)
 		if Number < 0:
-			print("Debe ingresar un numero entero positivo! Intente nuevamente...")
+			print("\n¡Debe ingresar un numero entero positivo! Intente nuevamente...")
 			continue
 		break
 	except ValueError:
-		print("Debe ingresar un numero entero! Intente nuevamente")
+		print("\n¡Debe ingresar un número entero! Intente nuevamente...")
 
 if (Number < 10):
 	Cont = 0
@@ -31,4 +31,4 @@ while (ANS > 9):
 	ANS = digits(ANS)
 	Cont += 1
 
-print("\nLa persistencia aditiva de {} es {}.".format(Number, Cont))
+print("\nLa persistencia aditiva de {} es {}.\n".format(Number, Cont))
