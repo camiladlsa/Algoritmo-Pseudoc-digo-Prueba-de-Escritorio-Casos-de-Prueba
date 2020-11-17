@@ -18,9 +18,12 @@ def digits(Number):
 
 	Sum_Of_Digits = 0
 	while (Number > 0):
-		Sum_Of_Digits += Number % 10
-		Number = Number//10 
-
+		Sum_Of_Digits += Number % 10   #123 % 10 = 3
+		Number = Number//10            #123 // 10 = 12 
+                                       #12 % 10 = 2 
+                                       #12 // 10 = 1 
+                                       # 1 % 10 = 1 
+                                       #Sum of digits = 3 + 2 + 1 = 6
 	print("")
 	print(Sum_Of_Digits)
 	return(Sum_Of_Digits)
