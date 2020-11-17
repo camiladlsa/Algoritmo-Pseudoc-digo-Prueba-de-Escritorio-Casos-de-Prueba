@@ -1,0 +1,15 @@
+# AGENDAR EVENTO | PYTHON
+
+1. Tener contacto con la persona que proveerá los datos del evento. 
+2. Capturar los datos siguientes: fecha, hora y duración. 
+3. Buscar agenda. 
+4. Abrir la agenda. 
+5. Dirigirnos hacia la página que contenga el *día*, *mes* y *año* que corresponde a la fecha provista. 
+6. Analizar la hora de inicio de nuestro evento y, a ello, añadirle la duración del evento, de manera que podamos calcular la hora de la finalización. 
+7. Si no tenemos espacio disponible dentro de la *fecha* y *rango de horas* que corresponden al evento: 
+	7.1 Avisar que no tenemos disponibilidad dentro de la fecha y *fecha* y *rango de horas* 
+	7.2 Repetir los pasos del 2 al 6 hasta encontrar disponibilidad. 
+8. Si tenemos espacio disponible dentro de la *fecha* y *rango de horas* que corresponden al evento: 
+	8.1 Simplemente, anotamos los datos del evento en nuestra agenda. 
+9. Confirmamos con nuestro contacto la *fecha* y el *rango de horas* pautado para el evento que ha sido programado en nuestra agenda. 
+10. Informamos a nuestro contanto que el evento ha sido agendado con éxito. 
