@@ -1,0 +1,38 @@
+# Persistencia Aditiva | Pseudocode | Python 
+
+START
+
+1. Cont = 1
+2. While True: 
+	3. Number = input("Ingrese el numero entero cuya persistencia aditiva desea saber: ")
+	4. Try: 
+		5. Number = int(Number)
+		6. If Number < 0 
+			7. Print("Debe ingresar un numero entero positivo! Intente nuevamente")
+		8. Number != int 
+			9. Print("Debe ingresar un numero entero! Intente nuevamente")
+
+10. If(Number < 10):
+		Cont = 0
+
+11. def digits(Number)
+	12. Define Sum_of_Digits = 0 
+	13. while(Number > 0)
+		14. Sum_Of_Digits =+ Number % 10 
+		15. Number = Number//10 
+	16. print(Sum_Of_Digits)
+	17. return(Sum_Of_Digits)
+
+	END of def
+
+18. ANS = digits(Number)
+
+19. while (ANS > 9)
+	20. ANS = digits(ANS)
+	21. Cont += 1
+
+	END of while
+
+22. Print("La persistencia aditiva de {} es {}.".format(Number, Cont))
+
+END
