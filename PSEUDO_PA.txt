@@ -13,7 +13,7 @@ START
 			9. Print("Debe ingresar un numero entero! Intente nuevamente")
 
 10. If(Number < 10):
-		Cont = 0
+	Cont = 0
 
 11. def digits(Number)
 	12. Define Sum_of_Digits = 0 
